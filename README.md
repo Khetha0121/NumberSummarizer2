@@ -1,8 +1,7 @@
 # NumberSummarizerAssessment
 
-## Overview
-The **Number Summarizer** is a simple Java program that takes a comma-separated string of integers, parses them into a sorted collection without duplicates, and produces a compact summary where consecutive sequences are collapsed into ranges (`start-end`).  
-
+## Executive Summary
+The Number Summarizer is a simple Java program that takes a comma-separated string of integers, parses them into a sorted collection without duplicates, and produces a compact summary where consecutive sequences are collapsed into ranges (`start-end`).  
 
 ## How It Works
 1. Input string (e.g. `"1,3,6,7,8,12,13,14,15,21,22,23,24,31"`) is parsed into integers.
@@ -10,7 +9,6 @@ The **Number Summarizer** is a simple Java program that takes a comma-separated 
 3. Consecutive numbers are grouped into ranges.
 4. The final summary string is returned, e.g.:
 1, 3, 6-8, 12-15, 21-24, 31
-
 
 ## Assumptions
 - Input may contain whitespace between numbers (valid).
@@ -23,7 +21,6 @@ The **Number Summarizer** is a simple Java program that takes a comma-separated 
 - Null or empty collections summarize to an empty string.
 
 ---
-
 ## Project Structure
 
 ### 1. `NumberRangeSummarizer` (Interface)
